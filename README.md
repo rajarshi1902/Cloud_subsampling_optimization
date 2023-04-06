@@ -3,7 +3,7 @@
 
 _Abstract_: Our project proposes an approach to optimize point subsampling for minor class retention by combining subsampling techniques through ML techniques, such as Decision Trees and Genetic Algorithms. Our approach attempts to predict the required subsampling values under various subsampling techniques to achieve a desired value of point cloud retained, outperforming existing techniques. This enables the processing and storage of point cloud data with reduced computational and storage requirements without sacrificing information from minor classes.
 
-## _Introduction_: 
+## Introduction: 
 
 Point clouds are an essential representation of 3D environments, and they have become increasingly popular in various applications, such as autonomous vehicles, robotics, and augmented reality. Point clouds can contain millions or billions of points, making them challenging to process efficiently. Therefore, subsampling algorithms are used to reduce the size of point cloud data by selecting a subset of points while retaining important geometric features. However, subsampling algorithms can introduce biases in the data, particularly towards certain classes, which can impact the performance of downstream tasks. Therefore, this report proposes a novel approach that uses machine learning algorithms to predict the effective class bias of a combination of subsampling algorithms used in sequence, investigating the impact of different ratios of sequential point removals using multiple subsampling algorithms on the class distribution of the data. Specifically, we investigate the impact of different ratios of sequential point removals using multiple subsampling algorithms on the class distribution of the data. 
 
